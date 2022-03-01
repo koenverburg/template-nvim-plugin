@@ -17,9 +17,8 @@ nvim --cmd "set rtp+=$(pwd)"
 
 After this you can call the plugin with the following command
 
-
 ```bash
-:lua require('greeting').greeting()
+:lua require('greeting').setup({ enable = true })
 ```
 
 This should return `Hello World!`
